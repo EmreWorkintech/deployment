@@ -5,7 +5,7 @@ function Home() {
   const history = useHistory();
   return (
     <>
-      <h1>Welcome to {import.meta.env.VITE_TITLE}</h1>
+      <h1>Welcome to My Home Page</h1>
       <button onClick={() => history.push("/login")}>Log In</button>
     </>
   );
